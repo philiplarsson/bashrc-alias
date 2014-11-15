@@ -1,4 +1,5 @@
-# ----------------- ALIAS -------------------
+
+# ----------------- ALIAS --------------------
 
 # This alias do colored output on ls
 alias ls="ls -G"
@@ -9,11 +10,13 @@ alias c="clear"
 # Asks before overwrite existing file
 alias mv="mv -i"
 
-# This alias reloads this file. Change to .bashrc on linux.
-alias reload_profile=". ~/.profile"
+# This alias reloads this file. Change to .profile on mac.
+alias reload_bashrc=". ~/.bashrc"
 
 # To move upp one folder
 alias ..="cd ../"
 
 #Compiles C using C99 Standard and extra warnings
 alias cc='cc -std=c99 -pedantic -Wextra'
+
+# --------------- END ALIAS ------------------
